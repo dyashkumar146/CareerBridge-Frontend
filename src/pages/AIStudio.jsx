@@ -21,3 +21,4 @@ const handleGenerate = async () => {
       }
     }
   };
+export default AIStudio;
