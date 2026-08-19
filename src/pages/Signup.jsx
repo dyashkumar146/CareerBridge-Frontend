@@ -20,7 +20,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://careerbridge-backend-1bd5.onrender.com
+      const response = await fetch('https://careerbridge-backend-1bd5.onrender.com/api/auth/login
 ', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
