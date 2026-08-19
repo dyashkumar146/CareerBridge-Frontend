@@ -8,7 +8,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/auth/users');
+        const response = await fetch('http://careerbridge-backend-1bd5.onrender.com/api/auth/users');
         const data = await response.json();
         setUsers(data);
       } catch (error) {
