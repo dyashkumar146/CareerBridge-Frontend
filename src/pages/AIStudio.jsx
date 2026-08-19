@@ -9,7 +9,7 @@ const AIStudio = () => {
     try {
       const endpoint = activeTab === 'resume' ? 'build-resume' : 'build-portfolio';
       // Render wala Live Backend URL
-      const res = await fetch(`https://careerbridge-backend-1bd5.onrender.com/api/auth/users)`, {
+      const res = await fetch(`https://careerbridge-backend-1bd5.onrender.com/api/auth/users'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
